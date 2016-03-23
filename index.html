@@ -18,28 +18,28 @@
 		</div>
 	</nav>
 
-	<section>
+	<aside>
 		<div class="row no-margin">
 			<div class="col-sm-2" id="genPanel">
 				<div class="input-group">
 					<span class="input-group-addon" id="basic-addon-column">C</span>
-					<input type="text" class="form-control" placeholder="Column number" aria-describedby="basic-addon-column" id="inputColumn">
+					<input type="number" class="form-control" placeholder="Column number" aria-describedby="basic-addon-column" id="inputColumn">
 				</div>
 				<div class="input-group">
 					<span class="input-group-addon" id="basic-addon-row">R</span>
-					<input type="text" class="form-control" placeholder="Row number" aria-describedby="basic-addon-row" id="inputRow">
+					<input type="number" class="form-control" placeholder="Row number" aria-describedby="basic-addon-row" id="inputRow">
 				</div>
-				<button type="button" class="btn btn-block btn-default btn-group-sm" role="group" aria-label="Generate" id="genGrid">Generate Grid</button>
-
-				<button type="button" class="btn btn-block btn-primary btn-group-sm" role="group" aria-label="Generate" id="genOutput">Generate Output</button>
+				<button type="button" class="btn btn-block btn-default btn-group-sm" id="genGrid">Generate Grid</button>
+				<hr/>
 				<div id="code">
 					<textarea></textarea>
 				</div>
+				<button type="button" class="btn btn-block btn-primary btn-group-sm" id="genOutput">Generate Output</button>
 			</div>
 			<div class="col-sm-10" id="mainPanel">
 			</div>
 		</div>
-	</section>
+	</aside>
 
 	<!-- Jquery -->
 	<script type="text/javascript" src="javascripts/jquery-1.12.0.min.js"></script>
